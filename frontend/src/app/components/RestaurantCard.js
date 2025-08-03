@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Clock } from 'lucide-react'
 
-export default function RestaurantCard({ image = "/food.png", name }) {
+export default function RestaurantCard({ image = "/Appliances repair professional shop.png", name }) {
   // Slugify name for dynamic path, e.g. "The Kathi Crossing" → "the-kathi-crossing"
   const slug = name.toLowerCase().replace(/\s+/g, '-')
 

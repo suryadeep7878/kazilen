@@ -11,12 +11,12 @@ export default function HomePage() {
 
       {/* Restaurant count */}
       <p className="px-4 mt-3 text-[11px] font-medium text-gray-400 tracking-wide uppercase">
-        293 Restaurants Delivering To You
+        293 Professionals Delivering To You
       </p>
 
       {/* Restaurant Cards */}
-      <RestaurantCard image="/food.png" name="The Kathi Crossing" />
-      <RestaurantCard image="/food.png" name="The Kathi Crossing" />
+      <RestaurantCard image="/Appliances repair professional shop.png" name="The Kathi Crossing" />
+      <RestaurantCard image="/Appliances repair professional shop.png" name="The Kathi Crossing" />
 
       {/* BottomNav is already in layout.js too — remove this to avoid duplicate */}
       {/* <BottomNav /> */}

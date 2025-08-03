@@ -4,11 +4,13 @@ import { useState } from 'react'
 import Image from 'next/image'
 
 const categories = [
-  { name: 'All', image: '/categories/all.png' },
-  { name: 'Biryani', image: '/categories/biryani.png' },
-  { name: 'Pizza', image: '/categories/pizza.png' },
-  { name: 'Thali', image: '/categories/thali.png' },
-  { name: 'Panner', image: '/categories/thali2.png' },
+  { name: 'All Services', image: '/categories/All_services.png' },
+  { name: 'Vehicle repair', image: '/categories/Vehicle repair.png'},
+  { name: 'Healthcare', image: '/categories/Healthcare.png' },
+  { name: 'Carpenter', image: '/categories/Carpanter repair or install.png' },
+  { name: 'Electrician', image: '/categories/Electrician service.png' },
+  { name: 'Appliance repair', image: '/categories/Appliances repair.png' },
+  { name: 'Home Cleaning', image: '/categories/Home cleaning.png' },
 ]
 
 export default function CategoryTabs() {
